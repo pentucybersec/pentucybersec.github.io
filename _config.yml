@@ -5,7 +5,7 @@ title: Hydra Template
 url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
-google_maps_javascript_api_key:
+google_maps_javascript_api_key: AIzaSyB1DwJv-YsKYifUr9sFKwb4jz2hyspoYGk
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
