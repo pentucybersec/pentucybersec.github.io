@@ -3,7 +3,7 @@
   new_window: false
   highlight: false
 - name: Blog
-  link: /blog/
+  link: https://www.brzozowski.io
   new_window: false
   highlight: false
 - name: About
