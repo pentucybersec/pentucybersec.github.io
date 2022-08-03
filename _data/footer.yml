@@ -8,19 +8,6 @@
   - name: Contact
     link: /contact/
 - links:
-  - name: Login
-    link: /
-    new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
-- links:
   - name: Facebook
     link: https://facebook.com/cloudcannon/
     new_window: true
