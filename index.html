@@ -3,22 +3,16 @@ title: The last sales CRM you'll ever need
 description: Track and optimize your sales team in real time
 ---
 <script>
-	var typed = new Typed('#typed', {
-	  stringsElement: '#typed-strings'
-	});
+var options = {
+  strings: ['<strong>Web Application.</strong>','<strong>Network Infrastructure.</strong>','<strong>Mobile Application.</strong>','<strong>API.</strong>','<strong>Configuration.</strong>','<strong>Employees.</strong>','<strong>Physical Security.</strong>'],
+  typeSpeed: 40
+};
+
+	var typed = new Typed('#typed', options);
 </script>
 
 <section class="hero">
 	<div class="text-container">
-		<div id="typed-strings">
-			<p><strong>Web Application.</strong></p>
-			<p><strong>Network Infrastructure.</strong></p>
-			<p><strong>Mobile Application.</strong></p>
-			<p><strong>API.</strong></p>
-			<p><strong>Configuration.</strong></p>
-			<p><strong>Employees.</strong></p>
-			<p><strong>Physical Security.</strong></p>
-		  </div>
 		<h1 class="editable"></h1>Pentest Your <span id="typed"></span></h1>
 		<p class="subtext editable">Track and optimize your sales team in real time.</p>
 		<div class="cta button alt"><a href="{{ site.baseurl }}/contact/">Get Started Free</a></div>
