@@ -5,14 +5,12 @@ description: Track and optimize your sales team in real time
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 var options = {
-  strings: ['<strong>Web Application</strong>','<strong>Network Infrastructure</strong>','<strong>Mobile Application</strong>','<strong>API</strong>','<strong>Configuration</strong>','<strong>Employees</strong>','<strong>Physical Security</strong>'],
+  strings: ['<strong>Web Application</strong>','<strong>Network Infrastructure</strong>','<strong>Cloud</strong>','<strong>IoT</strong>','<strong>Mobile Application</strong>','<strong>Desktop Application</strong>','<strong>API</strong>','<strong>Configuration</strong>','<strong>Employees</strong>','<strong>Physical Security</strong>'],
   typeSpeed: 30,
   backSpeed: 30,
   backDelay: 500,
-  loop: true,
-  shuffle: true,
-  loopCount: Infinity,
-
+  loop: false,
+  shuffle: true
 };
 var typed = new Typed('.typed', options);
 });
@@ -20,7 +18,7 @@ var typed = new Typed('.typed', options);
 
 <section class="hero">
 	<div class="text-container">
-		<h1 class="editable">Pentest Your <span class="typed"></span></h1>
+		<h1 class="editable">Pentest Your <br><span class="typed"></span></h1>
 		<p class="subtext editable">Track and optimize your sales team in real time.</p>
 		<div class="cta button alt"><a href="{{ site.baseurl }}/contact/">Get Started Free</a></div>
 		<div>
